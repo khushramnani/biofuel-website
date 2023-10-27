@@ -1,0 +1,64 @@
+@import url(style2.css);
+@import url(media.css);
+@import url(about.css);
+@import url(biodiesel.css);
+
+
+.a-bg-image {
+    background: url(./assets/asset\ 26.jpg);
+    background-size: cover;
+    height: 90vh;
+    width: 100%;
+    background-position: center;
+
+}
+
+.advantage-content {
+
+    padding-inline: 120px;
+    text-align: justify;
+}
+
+.background-overflow-img {
+    background: #fff url(./assets/asset\ 27.jpg) center center/cover no-repeat fixed;
+}
+
+.advantages-section li{
+    font-family: 'roboto','sans-sarif';
+    font-size: 1rem;
+
+}
+
+@media screen and (max-width:767px) {
+
+    .advantage-content {
+
+        padding-inline: 20px;
+        
+    }
+
+
+
+}
+
+
+@media screen and (min-width:767px) and (max-width:1025px){
+    .a-header-content{
+        margin-left: 0;
+        
+    }
+
+    .advantage-content {
+
+        padding-inline: 20px;
+        text-align: justify;
+    }
+     
+}
+@media screen and (min-width:1024px) {
+    .a-header-content{
+        margin-left: 0;
+        
+    }
+    
+}

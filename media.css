@@ -1,0 +1,697 @@
+/* 991 > 767 > 479 */
+
+@media screen and (width<=767px) {
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  .secondary-button {
+    height: 3rem;
+    width: 8rem;
+    font-size: 0.8rem;
+}
+  
+
+  .nav-logo img{
+    width: 70px;
+  
+  }
+
+  .nav-logo {
+
+    margin-block: -8px;
+
+}
+
+.company-name {
+
+  font-size: 1.2rem;
+
+}
+
+.nav-links {
+  position: absolute;
+  background-color: darkgreen;
+  top: 87%;
+  left: -100%;
+  width: 100%;
+  transition: 0.2s ease-in-out ;
+  padding-block: 30px;
+
+}
+.active{
+  left: 0;
+}
+
+
+
+  .nav-links ul {
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   
+  }
+
+.nav-toggel{
+  display: block;
+  padding-right: 15px;
+  padding-left: 20px;
+}
+
+.main-nav{
+  overflow: initial;
+}
+
+.hide {
+  display: none;
+}
+
+
+
+
+
+  .header-content {
+    width: 100vw;
+    height: 90vh;
+    margin-left: 0vw;
+    background-color: #2d1717;
+    opacity: 0.5;
+    align-items: flex-start;
+    justify-content: center;
+
+  }
+
+
+  .header-desc {
+    padding-inline: 10px;
+    font-size: 1rem;
+    margin-top: 120px;
+  }
+
+  .bg-image {
+
+    width: 100vw;
+  }
+
+ 
+
+
+
+  .ourstory-section {
+    height: auto;
+    margin-top: 50px;
+
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .story-column2 {
+    width: 100%;
+  }
+
+  .column1 {
+    width: 100%;
+    padding: 20px;
+  }
+
+  .main-heading {
+    padding: 50px 20px;
+  }
+
+  .help-section {
+    flex-direction: column;
+  }
+  .primary-heading {
+
+    font-size: 1.3rem;
+
+}
+.primary-content{
+  text-align: center;
+}
+
+  .help-section-column1,
+  .help-section-column2 {
+    flex-basis: 100%;
+    width: 100vw;
+  }
+  .help-img{
+    width: 100vw;
+  }
+
+  .column2 {
+    flex-basis: 100%;
+  }
+
+
+  /* ............................ */
+ 
+  .main-contact {
+    flex-direction: column-reverse;
+    height: 40rem;
+    margin-top: 0rem;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .column1-contact {
+    width: 100vw;
+  }
+
+  .column2-contact {
+    padding-inline: 20px;
+    margin-block: 30px;
+    justify-content: center;
+
+    text-align: center;
+  }
+
+  .contact-heading {
+    align-items: center;
+    padding-left: 0px;
+    justify-content: center;
+  }
+.contact-content{
+  padding-inline: 20px;
+}
+  .map-location {
+    width: 100vw;
+    height: 20rem;
+
+  }
+
+
+
+/* our achivemnets */
+.achivments-section{
+  flex-direction: column;
+}
+.achiv-heading{
+  font-size: 1.5rem;
+  
+}
+
+.col-3{
+  grid-column: span 3;
+}
+
+#box-4{
+  background-size: cover;
+  background-position: center;
+
+}
+.left-achiv{
+  padding-bottom: 20px;
+ 
+  }
+
+
+
+
+
+
+
+  /* owners-section */
+
+  .owners-section {
+    height: auto;
+    margin-inline: 31.6PX;
+    border-radius: 20px;
+    background-color: #13340e;
+    color: #e2ffef;
+    margin-bottom: 50px;
+  }
+
+  .profile-info {
+    flex-flow: wrap;
+    gap: 42px;
+  }
+
+  .profile-img {
+
+    height: 100px;
+    width: 100px;
+
+  }
+
+  .profile-desc {
+    font-size: 0.7rem;
+    
+  }
+
+  .owners-heading {
+    justify-content: center;
+    padding-block: 12px 60px;
+  }
+
+  .owners-heading h2 {
+    font-size: 1rem;
+  }
+  .sub-title {
+    font-size: 3rem;
+  }
+
+
+
+
+
+
+
+
+
+  /* footer-section */
+  footer {
+
+    width: 100vw;
+  }
+
+
+
+  .mainfooter {
+
+    height: auto;
+
+
+  }
+
+  .main-footer-content {
+
+    flex-direction: column;
+  }
+
+  .logo-section {
+    width: 100vw;
+    justify-content: center;
+    margin-block: 0px;
+  }
+
+  .footer-logo img {
+    height: 290px;
+    width: auto;;
+  }
+
+
+    .f-nav-links ul {
+      flex-direction: column;
+      margin-top: -8px;
+      gap: 20px;
+      justify-content: center;
+      width: 100vw;
+      align-items: center;
+  }
+
+  
+
+  .follow-us-section {
+    flex-direction: column;
+    margin-top: 30px;
+    gap: 8px;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .main {
+    padding-bottom: 26px;
+    gap: 0.2em;
+    align-items: center;
+  }
+
+  .card1 {
+    width: 50px;
+    height: 50px;
+  }
+
+  .card2 {
+    width: 50px;
+    height: 50px;
+  }
+
+  .card3 {
+    width: 50px;
+    height: 50px;
+  }
+
+  .card4 {
+    width: 50px;
+    height: 50px;
+  }
+
+  .up {
+    gap: 0.2em;
+  }
+
+  .down {
+    gap: 0.2em;
+  }
+
+  .instagram {
+    margin-top: 1em;
+    margin-left: 0.8em;
+
+  }
+
+  .twitter {
+    margin-top: 1em;
+    margin-left: -0.6em;
+  }
+
+  .facebook {
+    
+    margin-top: 0.3em;
+    margin-left: 0.8em;
+
+  }
+
+  .linkedin {
+    margin-top: 0.3em;
+    margin-left: -0.7em;
+    width: 20px;
+  }
+
+  .features-area {
+    gap: 81px;
+
+    align-items: center;
+  }
+
+  .features-cards {
+
+    gap: 6px;
+
+  }
+
+
+  .subfooter p{
+
+    font-size: 0.7rem;
+
+}
+
+
+
+
+
+
+}
+
+
+
+@media screen and (min-width:767px) and (max-width:1023px) {
+
+
+
+ h1{
+    font-size: 2rem;
+  }
+
+
+
+
+.column1 {
+  width: 100%;
+  padding: 20px;
+} 
+
+.story-column2 {
+  width: 100vw;
+}
+.nav-links {
+  position: absolute;
+  background-color: darkgreen;
+  top: 87%;
+  left: -100%;
+  width: 100%;
+  transition: 0.2s ease-in-out ;
+  padding-block: 30px;
+  
+
+}
+.nav-links.active{
+  left: 0;
+}
+
+
+  .nav-links ul {
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   
+  }
+
+.nav-toggel{
+  display: block;
+  padding-right: 40px;
+}
+
+.main-nav{
+  overflow: initial;
+}
+
+.hide {
+  display: none;
+}
+
+.help-section {
+  flex-direction: column;
+}
+
+.help-section-column1,
+.help-section-column2 {
+  flex-basis: 100%;
+    display: flex;
+    align-items: stretch;
+  }
+  
+  .help-img {
+    width: 100%;
+    height: 50vh;
+    object-fit: cover;
+  }
+  .column1-contact {
+    width: 100vw;
+}
+  .column2 {
+    padding: 20px;
+    color: #fff;
+    flex-direction: column;
+    justify-content: space-between;
+    display: flex;
+  }
+  
+  
+  .ourstory-section {
+    height: auto;
+    margin-top: 50px;
+  
+    flex-direction: column;
+    align-items: center;
+  }
+  
+
+  .main-contact{
+    flex-direction: column-reverse;
+    margin-top: 350px;
+  }
+
+  .owners-section {
+    height: auto;
+    margin-inline: 70PX;
+  }
+
+  .profile-img{
+    height: 150px;
+    width: 150px;
+  }
+
+  .profile-info {
+
+    flex-direction: column;
+    gap: 30px;
+}
+
+/* our achivments  */
+.achivments-section{
+  flex-direction: column;
+}
+.achiv-heading{
+  font-size: 1.5rem;
+  
+}
+
+.col-3{
+  grid-column: span 3;
+}
+.box{
+  background-size: cover;
+  background-position: center;
+}
+
+.gallery{
+  grid-auto-rows: 350px;
+  
+
+}
+
+.left-achiv{
+padding-bottom: 20px;
+}
+
+#box-2{
+  background-position: top;
+}
+#box-4{
+  background-position: center;
+  
+}
+
+
+
+
+
+  footer {
+
+    width: 100vw;
+  }
+
+
+
+
+  .main {
+padding-bottom: 30px;
+}
+  .main-footer-content {
+
+    flex-direction: column;
+  }
+
+  .logo-section {
+    width: 100vw;
+    justify-content: center;
+    margin-block: 0px;
+  }
+
+  .footer-logo img {
+    height: 290px;
+    width: 340px;
+  }
+
+  .f-nav-links ul {
+    flex-direction: row;
+    margin-top: -8px;
+    gap: 20px;
+    justify-content: center;
+    width: 100vw;
+
+  }
+
+  .follow-us-section {
+    flex-direction: column;
+    margin-top: 30px;
+    gap: 8px;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .main {
+
+    gap: 0.2em;
+    align-items: center;
+  }
+
+  .card1 {
+    width: 50px;
+    height: 50px;
+  }
+
+  .card2 {
+    width: 50px;
+    height: 50px;
+  }
+
+  .card3 {
+    width: 50px;
+    height: 50px;
+  }
+
+  .card4 {
+    width: 50px;
+    height: 50px;
+  }
+
+  .up {
+    gap: 0.2em;
+  }
+
+  .down {
+    gap: 0.2em;
+  }
+
+
+  .instagram {
+    margin-top: 1em;
+    margin-left: 0.8em;
+
+  }
+
+  .twitter {
+    margin-top: 1em;
+    margin-left: -0.6em;
+  }
+
+  .facebook {
+    
+    margin-top: 0.3em;
+    margin-left: 0.8em;
+
+  }
+
+  .linkedin {
+    margin-top: 0.3em;
+    margin-left: -0.7em;
+    width: 20px;
+  }
+
+
+  .features-area {
+    gap: 81px;
+
+    align-items: center;
+  }
+
+  .features-cards {
+
+    gap: 6px;
+
+  }
+
+
+
+
+
+
+
+
+}
+
+@media screen and (min-width:1023px) {
+  h1{
+    font-size: 3.2rem;
+  }
+
+  .owners-section{
+    margin-inline: 100px;
+  }
+  .nav-toggel{
+    display: none;
+  }
+
+.nav-links{
+  padding-right: 20px;
+}
+
+
+  }
+
+
+

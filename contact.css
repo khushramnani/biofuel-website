@@ -1,0 +1,79 @@
+@import url(media.css);
+
+
+
+
+.hover-effect{
+    color:var(--primary-text-color);
+    background-color: var(--title-text-color);
+    border-radius: 6px;
+    padding: 10px;
+ 
+}
+
+
+
+ /* .product-sublist:hover {
+  color: var(--primary-text-color);
+  background-color: var(--title-text-color);
+  border-radius: 6px;
+  transition: 0.2s ease-in;
+}
+
+.sub-menu {
+  display: none;
+  position: absolute;
+  background-color: var(--title-text-color);
+  padding: 10px;
+  border-radius: 6px;
+
+}
+
+.product-sublist:hover + .sub-menu {
+  display: block;
+  margin-top: 15px;
+  margin-left: -15px;
+} */
+
+.hover-link {
+  color: var(--primary-text-color);
+  padding: 10px;
+}
+
+.product-sublist:hover {
+  /* color: var(--primary-text-color); */
+  background-color: var(--title-text-color);
+  border-radius: 6px;
+  transition: 0.0s ease-in;
+}
+
+.sub-menu {
+   display: none;
+    position: absolute;
+    background-color: var(--title-text-color);
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 13px;
+    
+}
+
+.product-item:hover .sub-menu {
+  display: block;
+}
+
+.sub-menu a{
+    text-decoration: none;
+    color: var(--primary-text-color);
+    display: block;
+    padding-block: 5px;
+    padding-inline: 2px;
+}
+
+
+
+.sub-list:hover{
+  /* border-bottom: 1px solid green; */
+  background-color: #1d461d;
+  border-radius: 6px;
+}
+

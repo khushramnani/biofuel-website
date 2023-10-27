@@ -1,0 +1,47 @@
+@import url(style2.css);
+@import url(media.css);
+@import url(about.css);
+@import url(biodiesel.css);
+
+.a-bg-image {
+    background: url(./assets/asset\ 15.jpg);
+    background-size: cover;
+    height: 90vh;
+    width: 100%;
+    background-position: center;
+
+}
+
+
+
+
+
+
+
+
+.background-overflow-img {
+    background: #fff url(./assets/asset\ 25.jpg) center center/cover no-repeat fixed;
+    width: 100vw;
+}
+
+.advantages-section li{
+    font-family: 'roboto','sans-sarif';
+    font-size: 1rem;
+}
+
+
+@media screen and (max-width:767px) {
+
+
+.advantage-content {
+
+    padding-inline: 60px;
+}
+
+
+}
+
+
+@media screen and (min-width:767px) and (max-width:1025px) {
+
+}

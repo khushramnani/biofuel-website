@@ -1,0 +1,16 @@
+@import url(style2.css);
+@import url(media.css);
+@import url(biodiesel.css);
+@import url(animalfeed.css);
+
+
+
+
+
+.a-bg-image {
+    /* background: url(./assets/asset\ 20.jpg); */
+    background: #fff url(./assets/asset\ 20.jpg) center center/cover no-repeat content-box;
+
+}
+
+

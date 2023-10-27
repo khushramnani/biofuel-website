@@ -1,0 +1,62 @@
+@import url(style2.css);
+@import url(media.css);
+@import url(biodiesel.css);
+
+
+
+
+
+.box-container{
+
+    margin-inline: 20px;
+    border-radius: 20px;
+    background-color: #112a00;
+    color:  white;
+    margin-block: 30px;
+    padding-block: 20px;
+    border: 1px solid goldenrod;
+
+}
+
+
+.a-bg-image {
+    background: url(./assets/asset\ 32.jpg);
+}
+
+
+.sub-content-section{
+    align-items: center;
+
+}
+.sub-intro {
+    height: auto;
+
+
+}
+
+.info-heading2 {
+    padding-bottom: 5px;
+    border-bottom: 0;
+    align-items: baseline;
+    width: auto;
+    margin-bottom: 15px;
+}
+
+.secondary-img {
+
+    max-width: 45%;
+
+}
+
+@media screen and (max-width: 767px){
+.sub-content-section {
+    flex-direction: column-reverse;
+}
+
+.secondary-img {
+
+    max-width: 100%;
+
+}
+}
+
