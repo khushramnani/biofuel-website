@@ -206,6 +206,11 @@
  
   }
 
+  /* certificate-section  */
+
+  .zed-certi img{
+    width: 90vw;
+  }
 
 
 
@@ -665,8 +670,19 @@ padding-bottom: 30px;
 
   }
 
+    /* certificate-section  */
 
+    .zed-certi img{
+      width: 80vw;
+    }
 
+    .achivments-section{
+      flex-direction: column;
+    }
+
+    .primary-content{
+      margin-block: 5vh;
+    }
 
 
 
@@ -681,6 +697,11 @@ padding-bottom: 30px;
 
   .owners-section{
     margin-inline: 100px;
+
+  }
+
+  .profile-info{
+    flex-wrap: wrap;
   }
   .nav-toggel{
     display: none;
@@ -694,4 +715,9 @@ padding-bottom: 30px;
   }
 
 
+    /* certificate-section  */
+
+.zed-certi img{
+  width: 70vw;
+}
 

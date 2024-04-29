@@ -525,7 +525,18 @@ ul{
   }
   
 
+
+
+/* certificates section */
   
+.Certificate-section{
+  flex-direction: column;
+}
+
+.zed-certi{
+  margin-inline: auto;
+  margin-bottom: 10vh;
+}
 
 
 
