@@ -1,5 +1,13 @@
 /* 991 > 767 > 479 */
 
+@media screen and (width<=479px){
+  .company-name {
+
+    display: none;
+  
+  }
+}
+
 @media screen and (width<=767px) {
 
   h1 {
@@ -214,7 +222,10 @@
 
 
 
-
+  .plant-img img{
+    width: 90vw;
+    
+  }
 
 
   /* owners-section */
